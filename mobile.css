@@ -1,0 +1,134 @@
+@media(max-width: 1024px) {
+
+    .navbar-container{
+        display: none;
+    }
+
+    .showcase-container > h1 {
+        font-size: 3rem;
+        text-align: center;
+        line-height: 3.15rem;
+    }
+
+    .showcase-container > p {
+        font-size: 0.875rem;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    /* Sobre mim */
+
+    .about-me-content {
+        flex-direction: column;
+        
+
+    }
+
+    .about-me-content > img {
+        width: 200px;
+        height: 200px;
+        margin-right: 0;
+    }
+
+    .about-me-content > p {
+        font-size: 0.875rem;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    /* Habilidades */
+    .skills-content {
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    .skill-item {
+        padding: 20px;
+    }
+
+    .skill-item > img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .skill-item > p {
+        font-size: 0.875rem;
+    }
+
+    /* Projetos */
+
+    .projects-content {
+        margin-top: 40px;
+    }
+    .project-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-item:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .project-item:nth-child(even) .project-item-image {
+        margin-left: 0;
+    }
+
+    .project-item:nth-child(even) .project-text {
+        text-align: center;
+    }
+
+    .project-text {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .project-item .project-text > h3 {
+        font-size: 1.5rem;
+    }
+
+    .project-item .project-text > p {
+        font-size: 0.85rem;
+        margin-top: 10px;
+    }
+
+
+
+    /* Formulário */
+    .contact-form {
+        margin-top: 40px;
+    }
+
+
+    /* Rodapé */
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-container .social-items i {
+        margin-right: 0;
+    }
+
+    .footer-container > p {
+        text-align: center;
+    }
+
+    .footer-container .social-items {
+        display: flex;
+        gap: 15px;
+    }
+
+
+    /* Utilities */
+    .section-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+}
